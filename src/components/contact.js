@@ -13,28 +13,57 @@ class Contect extends Component {
               alt='avatar'
               style={{ height: '250px' }}
             />
-            <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>
-              aaaaaaa
+            <p
+              style={{
+                fontSize: '15px',
+                width: '75%',
+                margin: 'auto',
+                paddingTop: '2em',
+                textAlign: 'justify',
+              }}
+            >
+              Seeking a full-time Software Engineer position. Expected to start
+              in 10/2020.
             </p>
           </Cell>
           <Cell col={6}>
             <h2>Contact Me</h2>
             <hr />
-            <div className='contact-list'>
+            <div className='contact-list' style={{ margin: '50px 0 0 0' }}>
               <List>
                 <ListItem>
                   <ListItemContent
-                    style={{ fontsize: '25px', fontFamily: 'Anton' }}
+                    style={{ fontsize: '35px', fontFamily: 'Anton' }}
                   >
-                    <i className='fa fa-phone-square' aria-hidden='true' />
+                    <i
+                      className='fa fa-phone-square'
+                      aria-hidden='true'
+                      style={{ margin: '0 9px 0 0' }}
+                    />
                     (202) 386-2560
                   </ListItemContent>
                 </ListItem>
+
                 <ListItem>
-                  <ListItemContent icon='person'>Aaron Paul</ListItemContent>
+                  <ListItemContent
+                    style={{ fontsize: '35px', fontFamily: 'Anton' }}
+                  >
+                    <i className='fa fa-envelope' aria-hidden='true' />
+                    canzhao216@gmail.com
+                  </ListItemContent>
                 </ListItem>
+
                 <ListItem>
-                  <ListItemContent icon='person'>Bob Odenkirk</ListItemContent>
+                  <ListItemContent
+                    style={{ fontsize: '35px', fontFamily: 'Anton' }}
+                  >
+                    <i
+                      className='fa fa-skype'
+                      aria-hidden='true'
+                      style={{ margin: '0 7px 0 0' }}
+                    />
+                    canzhao216@gmail.com
+                  </ListItemContent>
                 </ListItem>
               </List>
             </div>
