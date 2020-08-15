@@ -21,7 +21,7 @@ function App() {
             <Link to='/resume'>Resume</Link>
             <Link to='/aboutme'>About Me</Link>
             <Link to='/projects'>Projects</Link>
-            <Link to='/contect'>Contect</Link>
+            <Link to='/contect'>Contact</Link>
           </Navigation>
         </Header>
         <Drawer
